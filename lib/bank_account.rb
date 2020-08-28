@@ -13,8 +13,8 @@ class BankAccount
         self.balance += deposit
     end
 
-    def withdrawl(value)
-        self.balance = @balance - (value)
+    def withdrawl(withdrawl)
+        self.balance -= withdrawl
     end
 
     def display_balance
